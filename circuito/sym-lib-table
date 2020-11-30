@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name circuito-rescue)(type Legacy)(uri ${KIPRJMOD}/circuito-rescue.lib)(options "")(descr ""))
+)

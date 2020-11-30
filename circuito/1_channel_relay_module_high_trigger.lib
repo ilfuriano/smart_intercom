@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1_Channel_Relay_Module_High_Trigger
+#
+DEF 1_Channel_Relay_Module_High_Trigger U 0 40 Y Y 1 F N
+F0 "U" 0 1100 50 H V C CNN
+F1 "1_Channel_Relay_Module_High_Trigger" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 300 100 -300 900 0 1 0 f
+X COM ~ -400 500 150 R 50 50 1 1 P
+X DC+ ~ 400 800 150 L 50 50 1 1 P
+X DC- ~ 400 500 150 L 50 50 1 1 P
+X IN ~ 400 200 150 L 50 50 1 1 P
+X NC ~ -400 200 150 R 50 50 1 1 P
+X NO ~ -400 800 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

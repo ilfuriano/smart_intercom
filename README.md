@@ -17,7 +17,7 @@ For the Urmet 1131/1133:
 
 It's strongly recommended to use a High Level Trigger Relay to avoid accidental opening of the door in the event of blackout.
 
-### Home Assistant / EspHome
+### Home Assistant / EspHome ([YAML](smart_intercom.yml))
 There are two entity:
 * **switch** for the door opening
 * **binary_sensor** triggered when the intercom buzzer rings.

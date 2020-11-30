@@ -1,0 +1,42 @@
+esphome:
+  name: citofono
+  platform: ESP8266
+  board: d1_mini
+
+wifi:
+  networks:
+    - ssid: "MyWifiNetwork"
+      password: "MyWifiPassword"
+   
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: "my_esp_password"
+
+ota:
+  password: "my_esp_password"
+
+switch:
+  - platform: gpio
+    id: open_relay
+    name: "Apri pedonale"
+    restore_mode: ALWAYS_OFF
+    pin:
+      number: D5
+      inverted: False
+    on_turn_on:
+      then:
+        - delay: 500ms
+        - switch.turn_off: open_relay
+
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: D3
+      inverted: true
+      mode: INPUT_PULLUP
+    name: "Citofono"
+    id: buzzer  

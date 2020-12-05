@@ -8,6 +8,13 @@ For the Urmet 1131/1133:
 * 6 -> GND
 * CA -> electric lock
 
+#### Urmet 1131
+<img alt="Urmet 1131" src="urmet_1131.jpg" width="200">
+
+#### Urmet 1133
+<img alt="Urmet 1133" src="urmet_1133.jpg" width="200">
+
+
 
 ### Components:
 * AC/DC -> LM2596HV AC/DC to DC Buck Step Down Converter Module ([Aliexpress](https://it.aliexpress.com/item/1005001291088100.html?spm=a2g0s.9042311.0.0.27424c4dUYQHFV))
